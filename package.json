@@ -1,0 +1,34 @@
+{
+  "name": "DigitalSignage",
+  "version": "1.0.0",
+  "description": "Digital Signage",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikshith Kolanu",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "*",
+    "fs": "*",
+    "http": "*",
+    "serve-static": "*",
+    "finalhandler": "*",
+    "serve-index": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-fileupload": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
